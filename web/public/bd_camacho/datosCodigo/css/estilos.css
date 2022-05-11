@@ -1,0 +1,219 @@
+/*imagen del logo*/
+header{
+
+	background-color: #393E46;
+	width: 100%;
+	top: 0;
+	position: fixed;
+}
+
+
+nav{
+	background-color: #393E46;
+
+}
+
+.colorFoot{
+	background-color: #87A3E4;
+}
+
+
+body{
+	margin: 0;
+	padding-top: 8rem;
+	display: flex;
+	min-height: 40vh;
+	flex-wrap: wrap;
+}
+
+
+/*Fijar Footer*/
+footer{
+	
+	background-color: #393E46; 
+	width: 100%;
+	height: 50px;
+	border: 0;
+	bottom: 0;
+	position: fixed;
+	align-self: flex-end;
+	object-position: end;
+	/*height: 60px;*/
+}
+
+
+/*Alinear header con página*/
+.alinear{
+	margin-top: 2em;
+}
+
+/*Tamaño Logo*/
+#logo{
+	width: 20em;
+}
+
+header nav a:hover{
+	border-radius: 50px;
+}
+
+/*Poner de color negro los items del nav*/
+ul li a{
+	color: black;
+}
+
+/*Cmbiar de color a los items del nav cuando se pasa el mouse*/
+ul li a:hover{
+	background-color: white;
+	color: #393E46 !important;
+	border-radius: 50px;
+}
+
+/*hover de modales*/
+button:hover{
+	background-color: white;
+	color: #393E46 !important;
+}
+
+/*Carrousel*/
+#carousel{
+	width: 100%;
+
+}
+
+ /*Agrega sombra al texto*/
+.sombra{
+text-shadow: -2px -2px 1px #000;
+}
+
+/*Dimensiona las imagenes de hoja de vida, en acerca de nosotros*/
+.imgacer{
+width: 20em;
+height: 100%;
+}
+
+#botonfijo{
+ margin: 10px 10px 10px auto;
+ width: 15%;
+ background-color: black;
+  padding: 10px; 
+  text-align:center; 
+  border:2px solid black; 
+  position: fixed;
+
+}
+
+span{
+	color:blue;
+	font-size: 50px;
+	font-style:italic;
+	text-transform: uppercase; /*para que sea mayúscula*/
+}
+
+
+/*Encuesta*/
+
+.mifecha2 {
+   border: 1px solid #ddd;
+   padding: 3px;
+   text-align: center;
+   font-family:verdana, arial;
+   font-size: 10pt;
+   overflow: hidden;
+   width: 100%
+}
+.mifecha2 .mesano{
+   float: left;
+   padding: 3px;
+   font-weight: bold;
+}
+.mifecha2 .dia, .mifecha2 .diaactual{
+   width: 20px;
+   padding: 3px;
+   margin-left: 3px;
+   background-color: #ddd;
+   float: left;
+}
+.mifecha2 .diaactual{
+   background-color: #999;
+   font-weight: bold;
+}
+
+/*Portafolio*/
+
+img{
+	width: 100%;
+}
+
+.portafolio{
+	width: 90%;
+	max-width: 1400px;
+	margin: auto;
+}
+
+.portafolio h1{
+	text-align: center;
+	font-size: 38px;
+	margin: 15px 0px 40px;
+}
+
+.portafolio-container{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.portafolio-item{
+	width: 30%;
+	position: relative;
+	overflow: hidden;
+}
+
+.portafolio-img{
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.portafolio-text{
+	position: absolute;
+	bottom: 0;
+	padding: 20px;
+
+	background: rgba(0,0,0,0.7);
+	color: #fff;
+
+	-webkit-transform: translateY(100%);
+
+	-ms-transform: translateY(100%);
+
+	transform: translateY(100%);
+
+	-webkit-transition: all 0.5s ease-out;
+
+	transition: all 0.5s ease-out;
+}
+
+.portafolio-text p{
+	text-align: justify;
+}
+
+.portafolio-item:hover .portafolio-text{
+	-webkit-transform: translateY(0%);
+	-ms-transform: translateY(0%);
+	transform: translateY(0%);
+}
+
+.portafolio-item:hover .portafolio-img{
+	-webkit-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	transform: scale(1.15);
+}
+
+h2 {
+	text-align:center; 
+	color:#cc9900;
+}
